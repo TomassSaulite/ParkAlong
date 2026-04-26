@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About TruckStop Safe</title>
+    <title>About ParkAlong</title>
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|instrument-sans:400,500,600" rel="stylesheet" />
     <style>
@@ -168,7 +168,7 @@
 <div class="shell">
     <section class="hero">
         <div class="nav">
-            <div class="brand">TruckStop Safe</div>
+            <div class="brand">ParkAlong</div>
             <div class="nav-links">
                 <a class="nav-link" href="{{ route('planner.index') }}">Back to planner</a>
                 <a class="nav-link" href="{{ route('planner.index') }}#plan">Plan a route</a>
@@ -176,7 +176,7 @@
         </div>
 
         <h1>How the app works</h1>
-        <p>TruckStop Safe helps drivers and dispatchers find truck parking that fits the real remaining legal drive window, stays close to the route corridor, and still surfaces the things drivers actually care about: safety, showers, food, toilets, cost, and practical map links.</p>
+        <p>ParkAlong helps drivers and dispatchers find truck parking that fits the real remaining legal drive window, stays close to the route corridor, and still surfaces the things drivers actually care about: safety, showers, food, toilets, cost, and practical map links.</p>
     </section>
 
     <div class="grid">

@@ -1,6 +1,6 @@
-# TruckStop Safe
+# ParkAlong
 
-TruckStop Safe is a Laravel hackathon prototype for European cargo drivers. It recommends truck parking along a live route based on:
+ParkAlong is a Laravel hackathon prototype for European cargo drivers. It recommends truck parking along a live route based on:
 
 - remaining legal driving time
 - proximity to the active route
@@ -35,7 +35,7 @@ The product angle is simple: help drivers stop safely before they run out of tim
 To bulk-load a larger Europe-wide fallback dataset:
 
 ```bash
-php artisan truckstop:import-european-dataset /path/to/truckParkingLocationsEurope_MediumHigh_v03.csv
+php artisan parkalong:import-european-dataset /path/to/truckParkingLocationsEurope_MediumHigh_v03.csv
 ```
 
 This command converts the CSV into the JSON structure used by the app and merges it with the curated demo parkings.
