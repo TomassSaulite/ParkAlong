@@ -1,0 +1,390 @@
+[
+    {
+        "id": "dataset-0",
+        "name": "Fueling / Truck Stop",
+        "country": "Austria",
+        "location": "",
+        "lat": 48.1577,
+        "lon": 15.9414,
+        "paid": false,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 83,
+        "capacity_hgv": 27,
+        "source": "fraunhofer europe dataset",
+        "category": "Fueling / Truck Stop",
+        "confidence": "High",
+        "area_m2": 6034,
+        "distance_tent_core_km": 0.0733
+    },
+    {
+        "id": "dataset-1",
+        "name": "Parking",
+        "country": "Austria",
+        "location": "",
+        "lat": 48.4582,
+        "lon": 14.0313,
+        "paid": false,
+        "amenities": {
+            "showers": false,
+            "food": false,
+            "toilets": false,
+            "lighting": false,
+            "security": false
+        },
+        "safety_score": 60,
+        "capacity_hgv": 26,
+        "source": "fraunhofer europe dataset",
+        "category": "Parking",
+        "confidence": "Medium",
+        "area_m2": 5815,
+        "distance_tent_core_km": null
+    },
+    {
+        "id": "fallback-vienna",
+        "name": "Vienna Truck Stop Sud",
+        "country": "Austria",
+        "location": "Vienna",
+        "lat": 48.1417,
+        "lon": 16.3227,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 89,
+        "capacity_hgv": 95,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-antwerp",
+        "name": "Goordijk Truck Parking",
+        "country": "Belgium",
+        "location": "Antwerp",
+        "lat": 51.2926,
+        "lon": 4.3436,
+        "paid": false,
+        "amenities": {
+            "showers": false,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 72,
+        "capacity_hgv": 60,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-lille",
+        "name": "Aire de Lesquin Poids Lourds",
+        "country": "France",
+        "location": "Lille",
+        "lat": 50.5808,
+        "lon": 3.1134,
+        "paid": false,
+        "amenities": {
+            "showers": false,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 68,
+        "capacity_hgv": 50,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-lyon",
+        "name": "Aire de Saint-Priest Poids Lourds",
+        "country": "France",
+        "location": "Lyon",
+        "lat": 45.7054,
+        "lon": 4.9554,
+        "paid": false,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 77,
+        "capacity_hgv": 55,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-strasbourg",
+        "name": "Aire du Haut-Koenigsbourg",
+        "country": "France",
+        "location": "Strasbourg corridor",
+        "lat": 48.3278,
+        "lon": 7.4275,
+        "paid": false,
+        "amenities": {
+            "showers": false,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 69,
+        "capacity_hgv": 45,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-calais",
+        "name": "Truck Etape Calais",
+        "country": "France",
+        "location": "Calais",
+        "lat": 50.9497,
+        "lon": 1.8564,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 95,
+        "capacity_hgv": 220,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-berlin",
+        "name": "Autohof Berlin South",
+        "country": "Germany",
+        "location": "Berlin",
+        "lat": 52.3131,
+        "lon": 13.3629,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 90,
+        "capacity_hgv": 100,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-dortmund",
+        "name": "Autohof Hamm-Rhynern",
+        "country": "Germany",
+        "location": "Hamm",
+        "lat": 51.6107,
+        "lon": 7.8729,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 91,
+        "capacity_hgv": 130,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-hanover",
+        "name": "Autohof Lehrte",
+        "country": "Germany",
+        "location": "Lehrte",
+        "lat": 52.3781,
+        "lon": 9.9638,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 93,
+        "capacity_hgv": 160,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-cologne",
+        "name": "Raststatte Frechen Nord",
+        "country": "Germany",
+        "location": "Cologne",
+        "lat": 50.9206,
+        "lon": 6.8367,
+        "paid": false,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 78,
+        "capacity_hgv": 70,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-hamburg",
+        "name": "Truck Parking Hamburg South",
+        "country": "Germany",
+        "location": "Hamburg",
+        "lat": 53.4418,
+        "lon": 10.0283,
+        "paid": false,
+        "amenities": {
+            "showers": true,
+            "food": false,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 84,
+        "capacity_hgv": 80,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-verona",
+        "name": "Verona Truck Park Quadrante Europa",
+        "country": "Italy",
+        "location": "Verona",
+        "lat": 45.4389,
+        "lon": 10.9567,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 91,
+        "capacity_hgv": 120,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-kaunas",
+        "name": "Kaunas Logistics Truck Park",
+        "country": "Lithuania",
+        "location": "Kaunas",
+        "lat": 54.8803,
+        "lon": 23.9555,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 87,
+        "capacity_hgv": 90,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-venlo",
+        "name": "Truck Parking Venlo Trade Port",
+        "country": "Netherlands",
+        "location": "Venlo",
+        "lat": 51.3902,
+        "lon": 6.1718,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 92,
+        "capacity_hgv": 110,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-moerdijk",
+        "name": "Truckpoint Moerdijk",
+        "country": "Netherlands",
+        "location": "Moerdijk",
+        "lat": 51.6904,
+        "lon": 4.6192,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 90,
+        "capacity_hgv": 140,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-poznan",
+        "name": "MOP Gozdowo Truck Park",
+        "country": "Poland",
+        "location": "Poznan corridor",
+        "lat": 52.3523,
+        "lon": 15.5698,
+        "paid": false,
+        "amenities": {
+            "showers": false,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 71,
+        "capacity_hgv": 65,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-warsaw",
+        "name": "Truck Arena Warsaw West",
+        "country": "Poland",
+        "location": "Warsaw",
+        "lat": 52.1974,
+        "lon": 20.6835,
+        "paid": true,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": true
+        },
+        "safety_score": 88,
+        "capacity_hgv": 150,
+        "source": "curated fallback"
+    },
+    {
+        "id": "fallback-bratislava",
+        "name": "Truck Centrum Bratislava",
+        "country": "Slovakia",
+        "location": "Bratislava",
+        "lat": 48.1458,
+        "lon": 17.1765,
+        "paid": false,
+        "amenities": {
+            "showers": true,
+            "food": true,
+            "toilets": true,
+            "lighting": true,
+            "security": false
+        },
+        "safety_score": 74,
+        "capacity_hgv": 70,
+        "source": "curated fallback"
+    }
+]
