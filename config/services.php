@@ -42,12 +42,12 @@ return [
 
     'nominatim' => [
         'base_url' => env('NOMINATIM_BASE_URL', 'https://nominatim.openstreetmap.org'),
-        'user_agent' => env('TRUCKSTOP_SAFE_USER_AGENT', 'TruckStop Safe Hackathon Prototype/1.0'),
+        'user_agent' => env('PARKALONG_USER_AGENT', 'ParkAlong Hackathon Prototype/1.0'),
     ],
 
     'overpass' => [
         'base_url' => env('OVERPASS_API_URL', 'https://overpass-api.de/api/interpreter'),
-        'enabled' => env('TRUCKSTOP_LIVE_PARKING', true),
+        'enabled' => env('PARKALONG_LIVE_PARKING', true),
     ],
 
 ];

@@ -7,14 +7,14 @@ use App\Services\TripPlanningService;
 use Mockery;
 use Tests\TestCase;
 
-class TruckStopPlannerTest extends TestCase
+class ParkAlongPlannerTest extends TestCase
 {
     public function test_home_page_renders(): void
     {
         $response = $this->get('/');
 
         $response->assertOk();
-        $response->assertSee('TruckStop Safe');
+        $response->assertSee('ParkAlong');
         $response->assertSee('Find the best truck stops');
     }
 

@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Throwable;
 
-class TruckStopPlannerController extends Controller
+class ParkAlongPlannerController extends Controller
 {
     public function index(): View
     {

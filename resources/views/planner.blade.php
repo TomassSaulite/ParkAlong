@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TruckStop Safe</title>
+    <title>ParkAlong</title>
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|instrument-sans:400,500,600" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
@@ -682,7 +682,7 @@
 <div class="shell">
     <section class="hero">
         <div class="hero-nav">
-            <div class="brand">TruckStop Safe</div>
+            <div class="brand">ParkAlong</div>
             <div class="hero-actions">
                 <a class="secondary-link" href="#plan">Planner</a>
                 <a class="secondary-link" href="{{ route('planner.about') }}">About</a>
@@ -691,8 +691,8 @@
         <span class="eyebrow">Social good x viable logistics</span>
         <div class="hero-grid">
             <div>
-                <h1>TruckStop Safe</h1>
-                <p>Find truck parking that fits the actual legal drive window, follows the exact route when dispatch has already planned one, and still stays readable enough to use on a phone during a fast check.</p>
+                <h1>ParkAlong</h1>
+                <p>Find truck parking that fits the actual legal drive window, follows the exact route when dispatch has already planned one, and still stays readable enough to use on a phone during a fast check. (ParkAlong)</p>
             </div>
             <div class="hero-side">
                 <div class="hero-note">
