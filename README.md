@@ -55,6 +55,10 @@ php artisan parkalong:import-european-dataset /path/to/truckParkingLocationsEuro
 
 This converts the CSV into the JSON structure used by the app and merges it with the curated demo parkings.
 
+## Quality
+
+See [`docs/quality.md`](docs/quality.md) for the accessibility, performance, and release checklist.
+
 ## Tests
 
 ```bash
