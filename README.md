@@ -36,6 +36,10 @@ php artisan serve
 
 Then open `http://127.0.0.1:8000`.
 
+## Demo walkthrough
+
+For the quickest tour, open the live demo and try **Rotterdam → Berlin** with a few hours of driving time. Compare the balanced, lowest-detour, and highest-safety ranking focuses. The demo is designed to remain useful without API keys by falling back to bundled parking coverage.
+
 ## Useful demo routes
 
 - `Rotterdam → Berlin`
